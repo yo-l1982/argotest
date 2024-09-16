@@ -9,6 +9,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: /apps/test-app
+    path: apps/test-app
     repoURL: https://github.com/yo-l1982/argotest
     targetRevision: main
