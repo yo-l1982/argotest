@@ -12,3 +12,5 @@ spec:
     path: apps/test-app
     repoURL: https://github.com/yo-l1982/argotest
     targetRevision: main
+  finalizers:
+    - resources-finalizer.argocd.argoproj.io
